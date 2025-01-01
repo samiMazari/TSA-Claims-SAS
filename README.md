@@ -62,8 +62,20 @@ The analysis results include:
     - The frequency values for Disposition for California.
     - The mean, minimum, maximum, and sum of Close_Amount for California? Round to the nearest integer.        
 
-## About
-Thank you .
+## About  
+
+The **TSA-Claims-SAS** project focuses on preparing and analyzing claims data from the Transportation Security Administration (TSA) using SAS Studio. The dataset, derived from publicly available TSA and FAA data, contains over 220,000 rows and 14 columns, offering a rich resource for exploratory data analysis (EDA).  
+
+The primary goals of this project are to:  
+- Identify and handle data quality issues, such as date discrepancies.  
+- Analyze the distribution of claims over time and across states.  
+- Enable dynamic filtering to derive insights based on user-defined state input.  
+
+This case study highlights key data science techniques, including data cleaning, trend analysis, and statistical summarization, while leveraging SAS Studio for processing and visualization.  
+
+The final output is a comprehensive PDF report answering critical questions about the dataset, complete with visualizations, summaries, and actionable insights. This project demonstrates a practical application of data science methodologies to real-world datasets.  
+
+###Thank You###
 
 
 
