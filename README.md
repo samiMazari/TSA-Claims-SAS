@@ -29,8 +29,8 @@ This project uses SAS Studio to perform an exploratory data analysis (EDA) on th
 ## Dataset
 - **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)  
 - **Key columns**:  
-  - `Survived`: Indicates whether the passenger survived (1) or not (0).  
-  - `Pclass`: Ticket class (1 = First, 2 = Second, 3 = Third).  
+  - `Claim_Number`: column has a number for each claim. Some claims can have duplicate claim numbers, but different information for each claim. Those claims are considered valid for this case study.
+  - `Incident_Date` and `Date_Received`: have the date the incident occurred and the date the claim was filed.  
   - `Sex`: Passenger gender.  
   - `Age`: Passenger age.  
   - `Fare`: Ticket fare.  
