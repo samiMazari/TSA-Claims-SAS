@@ -36,8 +36,7 @@ The report must answer the following questions:
    d. What is the mean, minimum, maximum, and sum of `Close_Amount` for the selected state?  
       The statistics should be rounded to the nearest integer.
      
-## Dataset
-- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)  
+## Dataset    
 - **Key columns**:  
   - `Claim_Number`: has a number for each claim. Some claims can have duplicate claim numbers, but different information for each claim. Those claims are considered valid for this case study.
   - `Incident_Date` and `Date_Received`: have the date the incident occurred and the date the claim was filed.  
