@@ -12,20 +12,21 @@ This project uses SAS Studio to perform an exploratory data analysis (EDA) on th
 - Handle missing data.  
 
 ## Content
-- **`scripts/eda_titanic.sas`**: SAS script for data analysis and processing.  
-- **`data/titanic.csv`**: Raw dataset (not included if protected by copyright).  
-- **`outputs/`**: Contains exported cleaned data and visualizations.  
+- **`studyCase01.sas`**: SAS script for data analysis and processing.  
+- **`TSAClaims2002_2017.csv`**: Raw dataset (not included if protected by copyright).  
+- **`TSAStudyCase_Results`**: Contains exported cleaned data and visualizations.  
 - **README.md**: Project documentation.  
 
 ## Instructions
-1. Download the GitHub repository.  
-2. Load the `eda_titanic.sas` file into SAS Studio.  
-3. Modify the path to the `titanic.csv` file in the script to match your environment.  
-4. Run the script to:  
-   - Load and explore the dataset.  
-   - Generate descriptive statistics and visualizations.  
-   - Export the cleaned data.  
-
+The final single PDF report must answer the following questions:
+      1. How many date issues are in the overall data?
+For the remaining analyses, exclude all rows with date issues.
+      2. How many claims per year of Incident_Date are in the overall data? Be sure to include a plot.
+      3. Lastly, a user should be able to dynamically input a specific state value and answer the following:
+           a. What are the frequency values for Claim_Type for the selected state?
+           b. What are the frequency values for Claim_Site for the selected state?
+           c. What are the frequency values for Disposition for the selected state?
+           d. What is the mean, minimum, maximum, and sum of Close_Amount for the selected state? The statistics should be rounded to the nearest integer.
 ## Dataset
 - **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)  
 - **Key columns**:  
