@@ -19,7 +19,8 @@ This project uses SAS Studio to perform an exploratory data analysis (EDA) on th
 
 ## Instructions
 The final single PDF report must answer the following questions:
-      1-** How many date issues are in the overall data?
+
+      1- How many date issues are in the overall data?
 For the remaining analyses, exclude all rows with date issues.
       2- How many claims per year of Incident_Date are in the overall data? Be sure to include a plot.
       3- Lastly, a user should be able to dynamically input a specific state value and answer the following:
