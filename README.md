@@ -75,7 +75,7 @@ This case study highlights key data science techniques, including data cleaning,
 
 The final output is a comprehensive PDF report answering critical questions about the dataset, complete with visualizations, summaries, and actionable insights. This project demonstrates a practical application of data science methodologies to real-world datasets.  
 
-###Thank You###
+
 
 
 
