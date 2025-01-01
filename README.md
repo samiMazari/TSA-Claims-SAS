@@ -18,7 +18,7 @@ This project uses SAS Studio to perform an exploratory data analysis (EDA) on th
 - **README.md**: Project documentation.  
 
 ## Instructions
-T# Final Single PDF Report
+ Final Single PDF Report
 
 The report must answer the following questions:
 
@@ -51,14 +51,19 @@ The report must answer the following questions:
 
 ## Results
 The analysis results include:  
-1. **Visualizations**: Age histogram, bar charts for gender and survival.  
-2. **Cleaned data**: Exported `titanic_clean.csv` file.  
+1. **Visualizations**: histogram for Distribution of incident_Date.  
+2. **Cleaned data**: Exported `CleanClaims.csv` file.  
 3. **Key insights**:  
-   - Women had a higher survival probability than men.  
-   - First-class passengers had a greater survival rate.  
+   - 4241 date issues are in the overall data.  
+   - How many claims per year of Incident_Date are in the overall data , include a plot (Histogram).
+3. **Analysis for California**:      
+    - The frequency values for Claim_Type for California.
+    - The frequency values for Claim_Site for California.
+    - The frequency values for Disposition for California.
+    - The mean, minimum, maximum, and sum of Close_Amount for California? Round to the nearest integer.        
 
 ## About
-This project is an example implementation of data science fundamentals using SAS Studio.
+Thank you .
 
 
 
