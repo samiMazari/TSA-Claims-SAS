@@ -29,11 +29,15 @@ This project uses SAS Studio to perform an exploratory data analysis (EDA) on th
 ## Dataset
 - **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)  
 - **Key columns**:  
-  - `Claim_Number`: column has a number for each claim. Some claims can have duplicate claim numbers, but different information for each claim. Those claims are considered valid for this case study.
+  - `Claim_Number`: has a number for each claim. Some claims can have duplicate claim numbers, but different information for each claim. Those claims are considered valid for this case study.
   - `Incident_Date` and `Date_Received`: have the date the incident occurred and the date the claim was filed.  
-  - `Sex`: Passenger gender.  
-  - `Age`: Passenger age.  
-  - `Fare`: Ticket fare.  
+  - `Claim_Type`:  has a type of the claim, There are 14 valid claim types.  
+  - `Claim_Site`:  column has where the claim occurred. There are 8 valid values for claims site.  
+  - `Disposition`: has a final settlement of the claim.
+  - `Close_Amount`: has a dollar amount of the settlement.
+  - `Item_Category`: has a type of items in the claim. The values in this column vary by year, so we won't work with this column in this case study.
+  - `Airport_Code ` and `Airport_Name `: columns have the code and the name where the incident occurred.
+  - `County` , `City` , `State ` and `Statename `: columns have the location of the airport. The State column has a two letter state code and Statename has the full state name.
 
 ## Results
 The analysis results include:  
